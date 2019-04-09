@@ -12,7 +12,7 @@ function appendStyleNode(id, href) {
 var oldWindowOnload = window.onload;
 window.onload = function() {
 
-    appendStyleNode('sa_custom', 'https://raw.githubusercontent.com/m0zgen/sysadminStyleForTeams/master/sa.css');
+    appendStyleNode('sa_custom', 'https://sys-adm.in/xck/libs/teams-sa.css');
 
     if (oldWindowOnload && typeof(oldWindowOnload) === 'function') {
         oldWindowOnload();
